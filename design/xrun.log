@@ -1,0 +1,29 @@
+xrun(64): 25.03-s006: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	25.03-s006: Started on May 20, 2026 at 23:15:35 EEST
+xrun
+	rtl.sv
+file: rtl.sv
+	module worklib.alu:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		alu
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.alu:sv <0x06597d9a>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		        Instances  Unique
+		Modules:        1       1
+		Registers:      1       1
+		Always blocks:  1       1
+	Writing initial simulation snapshot: worklib.alu:sv
+Loading snapshot worklib.alu:sv .................... Done
+xcelium> source /usr/cadence/installs/XCELIUM2503/tools/xcelium/files/xmsimrc
+xcelium> run
+xmsim: *W,RNQUIE: Simulation is complete.
+xcelium> exit
+TOOL:	xrun(64)	25.03-s006: Exiting on May 20, 2026 at 23:15:35 EEST  (total: 00:00:00)

@@ -1,0 +1,6 @@
+#e1(20May2026:23:22:29): source ./xcelium.d/env.d/env.history.20May2026_23_22_29
+s1(20May2026:23:22:29):  xrun test.sv 
+#e2(20May2026:23:23:39): source ./xcelium.d/env.d/env.history.20May2026_23_23_39
+s2(20May2026:23:23:39):  xrun test.sv 
+#e3(20May2026:23:25:55): source ./xcelium.d/env.d/env.history.20May2026_23_25_55
+s3(20May2026:23:25:55):  xrun test.sv design/rtl.sv 

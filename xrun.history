@@ -1,0 +1,76 @@
+#e1(20May2026:23:26:11): source ./xcelium.d/env.d/env.history.20May2026_23_26_11
+s1(20May2026:23:26:11):  xrun test/test.sv design/rtl.sv 
+#e2(20May2026:23:26:46): source ./xcelium.d/env.d/env.history.20May2026_23_26_46
+s2(20May2026:23:26:46):  xrun test/test.sv design/rtl.sv 
+#e3(20May2026:23:42:20): source ./xcelium.d/env.d/env.history.20May2026_23_42_20
+s3(20May2026:23:42:20):  xrun design/alu.sv test/regression/add_tb.sv 
+#e4(20May2026:23:42:21): source ./xcelium.d/env.d/env.history.20May2026_23_42_21
+s4(20May2026:23:42:21):  xrun design/alu.sv test/regression/sub_tb.sv 
+#e5(20May2026:23:42:21): source ./xcelium.d/env.d/env.history.20May2026_23_42_21
+s5(20May2026:23:42:21):  xrun design/alu.sv test/regression/mul_tb.sv 
+#e6(20May2026:23:42:48): source ./xcelium.d/env.d/env.history.20May2026_23_42_48
+s6(20May2026:23:42:48):  xrun design/rtl.sv test/regression/add_tb.sv 
+#e7(20May2026:23:42:48): source ./xcelium.d/env.d/env.history.20May2026_23_42_48
+s7(20May2026:23:42:48):  xrun design/rtl.sv test/regression/sub_tb.sv 
+#e8(20May2026:23:42:49): source ./xcelium.d/env.d/env.history.20May2026_23_42_49
+s8(20May2026:23:42:49):  xrun design/rtl.sv test/regression/mul_tb.sv 
+#e9(20May2026:23:43:15): source ./xcelium.d/env.d/env.history.20May2026_23_43_15
+s9(20May2026:23:43:15):  xrun design/rtl.sv test/regression/add_test.sv 
+#e10(20May2026:23:43:16): source ./xcelium.d/env.d/env.history.20May2026_23_43_16
+s10(20May2026:23:43:16):  xrun design/rtl.sv test/regression/sub_test..sv 
+#e11(20May2026:23:43:16): source ./xcelium.d/env.d/env.history.20May2026_23_43_16
+s11(20May2026:23:43:16):  xrun design/rtl.sv test/regression/mul_test.sv 
+#e12(20May2026:23:44:21): source ./xcelium.d/env.d/env.history.20May2026_23_44_21
+s12(20May2026:23:44:21):  xrun design/rtl.sv test/regression/add_test.sv 
+#e13(20May2026:23:44:21): source ./xcelium.d/env.d/env.history.20May2026_23_44_21
+s13(20May2026:23:44:21):  xrun design/rtl.sv test/regression/sub_test..sv 
+#e14(20May2026:23:44:21): source ./xcelium.d/env.d/env.history.20May2026_23_44_21
+s14(20May2026:23:44:21):  xrun design/rtl.sv test/regression/mul_test.sv 
+#e15(20May2026:23:46:11): source ./xcelium.d/env.d/env.history.20May2026_23_46_11
+s15(20May2026:23:46:11):  xrun design/rtl.sv test/regression/add_test.sv 
+#e16(20May2026:23:46:11): source ./xcelium.d/env.d/env.history.20May2026_23_46_11
+s16(20May2026:23:46:11):  xrun design/rtl.sv test/regression/sub_test..sv 
+#e17(20May2026:23:46:11): source ./xcelium.d/env.d/env.history.20May2026_23_46_11
+s17(20May2026:23:46:11):  xrun design/rtl.sv test/regression/mul_test.sv 
+#e18(20May2026:23:47:13): source ./xcelium.d/env.d/env.history.20May2026_23_47_13
+s18(20May2026:23:47:13):  xrun design/rtl.sv test/regression/add_test.sv 
+#e19(20May2026:23:47:13): source ./xcelium.d/env.d/env.history.20May2026_23_47_13
+s19(20May2026:23:47:13):  xrun design/rtl.sv test/regression/sub_test..sv 
+#e20(20May2026:23:47:14): source ./xcelium.d/env.d/env.history.20May2026_23_47_14
+s20(20May2026:23:47:14):  xrun design/rtl.sv test/regression/mul_test.sv 
+#e21(20May2026:23:48:46): source ./xcelium.d/env.d/env.history.20May2026_23_48_46
+s21(20May2026:23:48:46):  xrun design/rtl.sv test/regression/add_test.sv 
+#e22(20May2026:23:48:46): source ./xcelium.d/env.d/env.history.20May2026_23_48_46
+s22(20May2026:23:48:46):  xrun design/rtl.sv test/regression/sub_test.sv 
+#e23(20May2026:23:48:46): source ./xcelium.d/env.d/env.history.20May2026_23_48_46
+s23(20May2026:23:48:46):  xrun design/rtl.sv test/regression/mul_test.sv 
+#e24(20May2026:23:52:22): source ./xcelium.d/env.d/env.history.20May2026_23_52_22
+s24(20May2026:23:52:22):  xrun design/rtl.sv test/regression/add_test.sv 
+#e25(20May2026:23:52:22): source ./xcelium.d/env.d/env.history.20May2026_23_52_22
+s25(20May2026:23:52:22):  xrun design/rtl.sv test/regression/sub_test.sv 
+#e26(20May2026:23:52:23): source ./xcelium.d/env.d/env.history.20May2026_23_52_23
+s26(20May2026:23:52:23):  xrun design/rtl.sv test/regression/mul_test.sv 
+#e27(20May2026:23:54:07): source ./xcelium.d/env.d/env.history.20May2026_23_54_07
+s27(20May2026:23:54:07):  xrun design/rtl.sv test/regression/add_test.sv 
+#e28(20May2026:23:54:07): source ./xcelium.d/env.d/env.history.20May2026_23_54_07
+s28(20May2026:23:54:07):  xrun design/rtl.sv test/regression/sub_test.sv 
+#e29(20May2026:23:54:07): source ./xcelium.d/env.d/env.history.20May2026_23_54_07
+s29(20May2026:23:54:07):  xrun design/rtl.sv test/regression/mul_test.sv 
+#e30(20May2026:23:54:33): source ./xcelium.d/env.d/env.history.20May2026_23_54_33
+s30(20May2026:23:54:33):  xrun design/rtl.sv test/regression/add_test.sv 
+#e31(20May2026:23:54:33): source ./xcelium.d/env.d/env.history.20May2026_23_54_33
+s31(20May2026:23:54:33):  xrun design/rtl.sv test/regression/sub_test.sv 
+#e32(20May2026:23:54:34): source ./xcelium.d/env.d/env.history.20May2026_23_54_34
+s32(20May2026:23:54:34):  xrun design/rtl.sv test/regression/mul_test.sv 
+#e33(20May2026:23:57:33): source ./xcelium.d/env.d/env.history.20May2026_23_57_33
+s33(20May2026:23:57:33):  xrun design/rtl.sv test/regression/add_test.sv 
+#e34(20May2026:23:57:34): source ./xcelium.d/env.d/env.history.20May2026_23_57_34
+s34(20May2026:23:57:34):  xrun design/rtl.sv test/regression/sub_test.sv 
+#e35(20May2026:23:57:34): source ./xcelium.d/env.d/env.history.20May2026_23_57_34
+s35(20May2026:23:57:34):  xrun design/rtl.sv test/regression/mul_test.sv 
+#e36(20May2026:23:59:50): source ./xcelium.d/env.d/env.history.20May2026_23_59_50
+s36(20May2026:23:59:50):  xrun design/rtl.sv test/regression/add_test.sv 
+#e37(20May2026:23:59:50): source ./xcelium.d/env.d/env.history.20May2026_23_59_50
+s37(20May2026:23:59:50):  xrun design/rtl.sv test/regression/sub_test.sv 
+#e38(20May2026:23:59:50): source ./xcelium.d/env.d/env.history.20May2026_23_59_50
+s38(20May2026:23:59:50):  xrun design/rtl.sv test/regression/mul_test.sv 

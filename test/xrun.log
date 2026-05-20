@@ -1,0 +1,7 @@
+xrun(64): 25.03-s006: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	25.03-s006: Started on May 20, 2026 at 23:25:54 EEST
+xrun
+	test.sv
+	design/rtl.sv
+xrun: *SE,FILEMIS: Cannot find the provided file design/rtl.sv.
+TOOL:	xrun(64)	25.03-s006: Exiting on May 20, 2026 at 23:25:55 EEST  (total: 00:00:01)
