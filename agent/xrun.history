@@ -1,0 +1,26 @@
+#e1(22May2026:01:50:36): source ./xcelium.d/env.d/env.history.22May2026_01_50_36
+s1(22May2026:01:50:36):  xrun -uvm alu_agent.sv 
+#e2(22May2026:01:51:17): source ./xcelium.d/env.d/env.history.22May2026_01_51_17
+s2(22May2026:01:51:17):  xrun -uvm alu_agent.sv 
+#e3(22May2026:01:52:29): source ./xcelium.d/env.d/env.history.22May2026_01_52_29
+s3(22May2026:01:52:29):  xrun -uvm alu_agent.sv 
+#e4(22May2026:01:53:30): source ./xcelium.d/env.d/env.history.22May2026_01_53_30
+s4(22May2026:01:53:30):  xrun -uvm alu_agent.sv 
+#e5(22May2026:01:54:01): source ./xcelium.d/env.d/env.history.22May2026_01_54_01
+s5(22May2026:01:54:01):  xrun -uvm ../transaction/alu_transaction.sv ../driver/alu_driver.sv ../monitor/alu_monitor.sv alu_agent.sv 
+#e6(22May2026:01:54:12): source ./xcelium.d/env.d/env.history.22May2026_01_54_12
+s6(22May2026:01:54:12):  xrun -uvm ../transaction/alu_transaction.sv ../driver/driver.sv ../monitor/alu_monitor.sv alu_agent.sv 
+#e7(22May2026:01:55:35): source ./xcelium.d/env.d/env.history.22May2026_01_55_35
+s7(22May2026:01:55:35):  xrun -uvm alu_agent.sv 
+#e8(22May2026:01:56:04): source ./xcelium.d/env.d/env.history.22May2026_01_56_04
+s8(22May2026:01:56:04):  xrun -uvm alu_agent.sv 
+#e9(22May2026:01:56:53): source ./xcelium.d/env.d/env.history.22May2026_01_56_53
+s9(22May2026:01:56:53):  xrun -uvm ../transaction/alu_transaction.sv ../driver/driver.sv ../monitor/alu_monitor.sv alu_agent.sv 
+#e10(22May2026:01:57:05): source ./xcelium.d/env.d/env.history.22May2026_01_57_05
+s10(22May2026:01:57:05):  xrun -uvm ../transaction/transaction.sv ../driver/driver.sv ../monitor/alu_monitor.sv alu_agent.sv 
+#e11(22May2026:01:57:19): source ./xcelium.d/env.d/env.history.22May2026_01_57_19
+s11(22May2026:01:57:19):  xrun -uvm ../transaction/transaction.sv ../driver/driver.sv ../monitor/alu_monitor.sv alu_agent.sv 
+#e12(22May2026:01:58:32): source ./xcelium.d/env.d/env.history.22May2026_01_58_32
+s12(22May2026:01:58:32):  xrun -uvm ../transaction/transaction.sv ../driver/driver.sv ../monitor/alu_monitor.sv alu_agent.sv 
+#e13(22May2026:01:58:44): source ./xcelium.d/env.d/env.history.22May2026_01_58_44
+s13(22May2026:01:58:44):  xrun -uvm alu_agent.sv 

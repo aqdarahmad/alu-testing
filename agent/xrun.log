@@ -1,0 +1,204 @@
+xrun(64): 25.03-s006: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	25.03-s006: Started on May 22, 2026 at 01:58:44 EEST
+xrun
+	-uvm
+	alu_agent.sv
+file: alu_agent.sv
+	interface worklib.alu_if:sv
+		errors: 0, warnings: 0
+class alu_transaction extends uvm_sequence_item;
+                    |
+xmvlog: *E,DUPIDN (./../transaction/transaction.sv,4|20): identifier 'alu_transaction' previously declared in file ../transaction/transaction.sv at line 4 [12.5(IEEE)].
+interface alu_if;
+               |
+xmvlog: *W,RECOME (./../interface/interface.sv,3|15): recompiling design unit worklib.alu_if:sv.
+	First compiled from line 3 of ../interface/interface.sv.
+	interface worklib.alu_if:sv
+		errors: 0, warnings: 1
+class alu_driver extends uvm_driver #(alu_transaction);
+                                  |
+xmvlog: *E,SVNOTY (../driver/driver.sv,5|34): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+`uvm_component_utils(alu_driver)
+                               |
+xmvlog: *E,SVNOTY (../driver/driver.sv,7|31): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+`uvm_component_utils(alu_driver)
+                               |
+xmvlog: *E,SVEXTK (../driver/driver.sv,7|31): expecting a ';' (to terminate a type_declaration).
+`uvm_component_utils(alu_driver)
+                               |
+xmvlog: *E,SVEXTK (../driver/driver.sv,7|31): expecting a ';' (to terminate a type_declaration).
+`uvm_component_utils(alu_driver)
+                               |
+xmvlog: *E,SVNOTY (../driver/driver.sv,7|31): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+`uvm_component_utils(alu_driver)
+                               |
+xmvlog: *E,EXPSMC (../driver/driver.sv,7|31): expecting a semicolon (';') [10.3.1(IEEE)].
+`uvm_component_utils(alu_driver)
+                               |
+xmvlog: *E,SVNOTY (../driver/driver.sv,7|31): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+`uvm_component_utils(alu_driver)
+                               |
+xmvlog: *E,EXPSMC (../driver/driver.sv,7|31): expecting a semicolon (';') [10.3.1(IEEE)].
+function new(string name, uvm_component parent);
+                                      |
+xmvlog: *E,EXPRPA (../driver/driver.sv,11|38): expecting a right parenthesis (')') [A.2.6(IEEE)].
+function new(string name, uvm_component parent);
+                                      |
+xmvlog: *E,NOIPRT (../driver/driver.sv,11|38): Unrecognized declaration 'uvm_component' of unknown type, which could be because of an unsupported keyword, a spelling mistake, non-visible type, or missing instance port list '()' [SystemVerilog].
+function new(string name, uvm_component parent);
+                                      |
+xmvlog: *E,NOTINF (../driver/driver.sv,11|38): Interfaces are not allowed within tasks [SystemVerilog].
+function new(string name, uvm_component parent);
+                                              |
+xmvlog: *E,EXPSMC (../driver/driver.sv,11|46): expecting a semicolon (';') [12.3.2(IEEE)].
+    super.new(name,parent);
+        |
+xmvlog: *E,EXPRPA (../driver/driver.sv,12|8): expecting a right parenthesis (')') [A.2.6(IEEE)].
+task run_phase(uvm_phase phase);
+                       |
+xmvlog: *E,SVNOTY (../driver/driver.sv,15|23): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+    alu_transaction tx;
+                  |
+xmvlog: *E,NOIPRT (../driver/driver.sv,17|18): Unrecognized declaration 'alu_transaction' of unknown type, which could be because of an unsupported keyword, a spelling mistake, non-visible type, or missing instance port list '()' [SystemVerilog].
+    alu_transaction tx;
+                  |
+xmvlog: *E,NOTINF (../driver/driver.sv,17|18): Interfaces are not allowed within tasks [SystemVerilog].
+    forever begin
+          |
+xmvlog: *E,EXPRPA (../driver/driver.sv,19|10): expecting a right parenthesis (')') [A.2.6(IEEE)].
+endtask
+      |
+xmvlog: *E,MISMUL (../driver/driver.sv,33|6): Missing "begin" in [SystemVerilog] task/function.
+class alu_transaction extends uvm_sequence_item;
+                                              |
+xmvlog: *E,SVNOTY (./../transaction/transaction.sv,4|46): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,SVNOTY (./../transaction/transaction.sv,6|35): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,SVEXTK (./../transaction/transaction.sv,6|35): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,SVEXTK (./../transaction/transaction.sv,6|35): expecting a ';' (to terminate a type_declaration).
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,SVNOTY (./../transaction/transaction.sv,6|35): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,EXPSMC (./../transaction/transaction.sv,6|35): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,SVNOTY (./../transaction/transaction.sv,6|35): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,EXPSMC (./../transaction/transaction.sv,6|35): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,SVNOTY (./../transaction/transaction.sv,6|35): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,EXPSMC (./../transaction/transaction.sv,6|35): expecting a semicolon (';') [10.3.1(IEEE)].
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,NOIPRT (./../transaction/transaction.sv,6|35): Unrecognized declaration 'alu_transaction' of unknown type, which could be because of an unsupported keyword, a spelling mistake, non-visible type, or missing instance port list '()' [SystemVerilog].
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,NOTINF (./../transaction/transaction.sv,6|35): Interfaces are not allowed within functions [SystemVerilog].
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,SVNOTY (./../transaction/transaction.sv,6|35): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,SVNOTY (./../transaction/transaction.sv,6|35): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,NOTSTT (./../transaction/transaction.sv,6|35): expecting a statement [9(IEEE)].
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,MISEXX (./../transaction/transaction.sv,6|35): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,NOTSTT (./../transaction/transaction.sv,6|35): expecting a statement [9(IEEE)].
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,MISEXX (./../transaction/transaction.sv,6|35): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  `uvm_object_utils(alu_transaction)
+                                   |
+xmvlog: *E,MISEXX (./../transaction/transaction.sv,6|35): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+    super.new(name);
+        |
+xmvlog: *E,CLSSPX (./../transaction/transaction.sv,14|8): 'super' can only be used within a class scope that derives from a base class.
+interface alu_if;
+               |
+xmvlog: *W,RECOME (./../interface/interface.sv,3|15): recompiling design unit worklib.alu_if:sv.
+	First compiled from line 3 of ../interface/interface.sv.
+	interface worklib.alu_if:sv
+		errors: 0, warnings: 1
+ class alu_monitor extends uvm_monitor;
+                                     |
+xmvlog: *E,SVNOTY (../monitor/alu_monitor.sv,7|37): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+`uvm_component_utils(alu_monitor)
+                                |
+xmvlog: *E,SVNOTY (../monitor/alu_monitor.sv,9|32): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+`uvm_component_utils(alu_monitor)
+                                |
+xmvlog: *E,SVEXTK (../monitor/alu_monitor.sv,9|32): expecting a ';' (to terminate a type_declaration).
+`uvm_component_utils(alu_monitor)
+                                |
+xmvlog: *E,SVEXTK (../monitor/alu_monitor.sv,9|32): expecting a ';' (to terminate a type_declaration).
+`uvm_component_utils(alu_monitor)
+                                |
+xmvlog: *E,SVNOTY (../monitor/alu_monitor.sv,9|32): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+`uvm_component_utils(alu_monitor)
+                                |
+xmvlog: *E,EXPSMC (../monitor/alu_monitor.sv,9|32): expecting a semicolon (';') [10.3.1(IEEE)].
+`uvm_component_utils(alu_monitor)
+                                |
+xmvlog: *E,SVNOTY (../monitor/alu_monitor.sv,9|32): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+`uvm_component_utils(alu_monitor)
+                                |
+xmvlog: *E,EXPSMC (../monitor/alu_monitor.sv,9|32): expecting a semicolon (';') [10.3.1(IEEE)].
+uvm_analysis_port #(alu_transaction) mon_port;
+                |
+xmvlog: *E,EXPENC (../monitor/alu_monitor.sv,13|16): Expecting the keyword 'endclass'.
+function new(string name, uvm_component parent);
+           |
+xmvlog: *E,NEWOIC (../monitor/alu_monitor.sv,15|11): The class constructor method 'new' is only allowed within a class declaration.
+function new(string name, uvm_component parent);
+                                      |
+xmvlog: *E,EXPRPA (../monitor/alu_monitor.sv,15|38): expecting a right parenthesis (')') [A.2.6(IEEE)].
+function new(string name, uvm_component parent);
+                                      |
+xmvlog: *E,NOIPRT (../monitor/alu_monitor.sv,15|38): Unrecognized declaration 'uvm_component' of unknown type, which could be because of an unsupported keyword, a spelling mistake, non-visible type, or missing instance port list '()' [SystemVerilog].
+function new(string name, uvm_component parent);
+                                      |
+xmvlog: *E,NOTINF (../monitor/alu_monitor.sv,15|38): Interfaces are not allowed within tasks [SystemVerilog].
+function new(string name, uvm_component parent);
+                                              |
+xmvlog: *E,EXPSMC (../monitor/alu_monitor.sv,15|46): expecting a semicolon (';') [12.3.2(IEEE)].
+    super.new(name,parent);
+        |
+xmvlog: *E,EXPRPA (../monitor/alu_monitor.sv,16|8): expecting a right parenthesis (')') [A.2.6(IEEE)].
+task run_phase(uvm_phase phase);
+                       |
+xmvlog: *E,SVNOTY (../monitor/alu_monitor.sv,21|23): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+    alu_transaction tx;
+                  |
+xmvlog: *E,NOIPRT (../monitor/alu_monitor.sv,23|18): Unrecognized declaration 'alu_transaction' of unknown type, which could be because of an unsupported keyword, a spelling mistake, non-visible type, or missing instance port list '()' [SystemVerilog].
+    alu_transaction tx;
+                  |
+xmvlog: *E,NOTINF (../monitor/alu_monitor.sv,23|18): Interfaces are not allowed within tasks [SystemVerilog].
+    forever begin
+          |
+xmvlog: *E,EXPRPA (../monitor/alu_monitor.sv,25|10): expecting a right parenthesis (')') [A.2.6(IEEE)].
+endtask
+      |
+xmvlog: *E,MISMUL (../monitor/alu_monitor.sv,40|6): Missing "begin" in [SystemVerilog] task/function.
+endclass
+       |
+xmvlog: *E,MPANDC (../monitor/alu_monitor.sv,42|7): expecting the keyword 'module', 'macromodule', 'primitive', 'connectmodule','connect', 'discipline' or 'nature' [A.1].
+	Total errors/warnings found outside modules and primitives:
+		errors: 60, warnings: 0
+xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	xrun(64)	25.03-s006: Exiting on May 22, 2026 at 01:58:44 EEST  (total: 00:00:00)

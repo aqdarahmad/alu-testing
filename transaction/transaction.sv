@@ -8,7 +8,7 @@ class alu_transaction extends uvm_sequence_item;
   rand logic [3:0] a;
   rand logic [3:0] b;
   rand logic [2:0] opcode;
- rand logic [7:0] result; 
+  rand logic [7:0] result;
 
   function new(string name = "alu_transaction");
     super.new(name);
