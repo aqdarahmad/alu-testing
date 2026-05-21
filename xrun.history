@@ -74,3 +74,11 @@ s36(20May2026:23:59:50):  xrun design/rtl.sv test/regression/add_test.sv
 s37(20May2026:23:59:50):  xrun design/rtl.sv test/regression/sub_test.sv 
 #e38(20May2026:23:59:50): source ./xcelium.d/env.d/env.history.20May2026_23_59_50
 s38(20May2026:23:59:50):  xrun design/rtl.sv test/regression/mul_test.sv 
+#e39(21May2026:01:16:04): source ./xcelium.d/env.d/env.history.21May2026_01_16_04
+s39(21May2026:01:16:04):  xrun design/rtl.sv test/regression/add_test.sv 
+#e40(21May2026:01:16:05): source ./xcelium.d/env.d/env.history.21May2026_01_16_05
+s40(21May2026:01:16:05):  xrun design/rtl.sv test/regression/sub_test.sv 
+#e41(21May2026:01:16:05): source ./xcelium.d/env.d/env.history.21May2026_01_16_05
+s41(21May2026:01:16:05):  xrun design/rtl.sv test/regression/mul_test.sv 
+#e42(21May2026:01:16:05): source ./xcelium.d/env.d/env.history.21May2026_01_16_05
+s42(21May2026:01:16:05):  xrun design/rtl.sv test/regression/and_test.sv 

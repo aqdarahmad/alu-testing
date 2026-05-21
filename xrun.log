@@ -1,24 +1,24 @@
 xrun(64): 25.03-s006: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	25.03-s006: Started on May 20, 2026 at 23:59:50 EEST
+TOOL:	xrun(64)	25.03-s006: Started on May 21, 2026 at 01:16:05 EEST
 xrun
 	design/rtl.sv
-	test/regression/mul_test.sv
+	test/regression/and_test.sv
 file: design/rtl.sv
 	module worklib.alu:sv
 		errors: 0, warnings: 0
-file: test/regression/mul_test.sv
-	module worklib.mul_test:sv
+file: test/regression/and_test.sv
+	module worklib.and_test:sv
 		errors: 0, warnings: 0
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
 	Top level design units:
-		mul_test
+		and_test
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
 		worklib.alu:sv <0x0707e53f>
 			streams:   1, words:   656
-		worklib.mul_test:sv <0x0ac06075>
-			streams:   2, words:  1653
+		worklib.and_test:sv <0x0b49702f>
+			streams:   2, words:  1656
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
@@ -30,11 +30,11 @@ file: test/regression/mul_test.sv
 		Initial blocks:          1       1
 		Pseudo assignments:      1       -
 		Simulation timescale:  1ps
-	Writing initial simulation snapshot: worklib.mul_test:sv
-Loading snapshot worklib.mul_test:sv .................... Done
+	Writing initial simulation snapshot: worklib.and_test:sv
+Loading snapshot worklib.and_test:sv .................... Done
 xcelium> source /usr/cadence/installs/XCELIUM2503/tools/xcelium/files/xmsimrc
 xcelium> run
 Passed Test
 xmsim: *W,RNQUIE: Simulation is complete.
 xcelium> exit
-TOOL:	xrun(64)	25.03-s006: Exiting on May 20, 2026 at 23:59:50 EEST  (total: 00:00:00)
+TOOL:	xrun(64)	25.03-s006: Exiting on May 21, 2026 at 01:16:05 EEST  (total: 00:00:00)

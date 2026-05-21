@@ -6,7 +6,7 @@
 ./xcelium.d/run.lnx8664.25.03.d
 -RUNMODE
 design/rtl.sv
-test/regression/mul_test.sv
+test/regression/and_test.sv
 -CDSLIB
 ./xcelium.d/run.lnx8664.25.03.d/cdsrun.lib
 -HDLVAR

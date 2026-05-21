@@ -18,6 +18,10 @@ xrun design/rtl.sv test/regression/mul_test.sv
 
 
 echo ""
+echo "Running AND test..."
+xrun design/rtl.sv test/regression/and_test.sv
+
+echo ""
 echo "=========================="
 echo "  REGRESSION FINISHED"
 echo "=========================="

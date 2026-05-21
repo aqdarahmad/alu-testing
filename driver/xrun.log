@@ -1,0 +1,76 @@
+xrun(64): 25.03-s006: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	25.03-s006: Started on May 22, 2026 at 01:35:21 EEST
+xrun
+	-uvm
+	driver.sv
+Recompiling... reason: file './driver.sv' is newer than expected.
+	expected: Fri May 22 01:34:52 2026
+	actual:   Fri May 22 01:35:18 2026
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /usr/cadence/installs/XCELIUM2503/tools/methodology/UVM/CDNS-1.1d
+file: driver.sv
+	interface worklib.alu_if:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		$unit_0x400de336
+		alu_if
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.alu_if:sv <0x6ebb2c7c>
+			streams: 171, words: 181090
+		worklib.cdns_uvm_pkg:sv <0x0c90cdff>
+			streams: 172, words: 242151
+		worklib.cdns_uvmapi:svp <0x6e255122>
+			streams:  27, words: 28330
+		worklib.cdns_assert2uvm_pkg:sv <0x3b03c338>
+			streams:   3, words:  1590
+		worklib.uvm_pkg:sv <0x63d00a76>
+			streams: 4532, words: 6727403
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Interfaces:                     1       1
+		Verilog packages:               4       4
+		Registers:                 13,104  10,058
+		Named events:                   4      12
+		Initial blocks:               255     146
+		Parallel blocks:               26      27
+		Assertions:                     2       2
+		Compilation units:              1       1
+		SV Class declarations:        191     305
+		SV Class specializations:     350     350
+	Writing initial simulation snapshot: worklib.alu_if:sv
+Loading snapshot worklib.alu_if:sv .................... Done
+SVSEED default: 1
+xcelium> source /usr/cadence/installs/XCELIUM2503/tools/xcelium/files/xmsimrc
+xcelium> source /usr/cadence/installs/XCELIUM2503/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (25.03-s006)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+xmsim: *W,RNQUIE: Simulation is complete.
+xcelium> exit
+TOOL:	xrun(64)	25.03-s006: Exiting on May 22, 2026 at 01:35:24 EEST  (total: 00:00:03)

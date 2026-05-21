@@ -1,0 +1,8 @@
+#e1(22May2026:01:33:58): source ./xcelium.d/env.d/env.history.22May2026_01_33_58
+s1(22May2026:01:33:58):  xrun driver.sv 
+#e2(22May2026:01:34:08): source ./xcelium.d/env.d/env.history.22May2026_01_34_08
+s2(22May2026:01:34:08):  xrun -uvm driver.sv 
+#e3(22May2026:01:34:55): source ./xcelium.d/env.d/env.history.22May2026_01_34_55
+s3(22May2026:01:34:55):  xrun -uvm driver.sv 
+#e4(22May2026:01:35:21): source ./xcelium.d/env.d/env.history.22May2026_01_35_21
+s4(22May2026:01:35:21):  xrun -uvm driver.sv 

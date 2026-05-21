@@ -1,0 +1,20 @@
+#e1(22May2026:01:12:36): source ./xcelium.d/env.d/env.history.22May2026_01_12_36
+s1(22May2026:01:12:36):  xrun sequence.sv 
+#e2(22May2026:01:21:13): source ./xcelium.d/env.d/env.history.22May2026_01_21_13
+s2(22May2026:01:21:13):  xrun sequence.sv 
+#e3(22May2026:01:26:18): source ./xcelium.d/env.d/env.history.22May2026_01_26_18
+s3(22May2026:01:26:18):  xrun sequence.sv 
+#e4(22May2026:01:27:23): source ./xcelium.d/env.d/env.history.22May2026_01_27_23
+s4(22May2026:01:27:23):  xrun sequence.sv 
+#e5(22May2026:01:28:12): source ./xcelium.d/env.d/env.history.22May2026_01_28_12
+s5(22May2026:01:28:12):  xrun sequence.sv 
+#e6(22May2026:01:28:16): source ./xcelium.d/env.d/env.history.22May2026_01_28_16
+s6(22May2026:01:28:16):  xrun sequence.sv 
+#e7(22May2026:01:28:51): source ./xcelium.d/env.d/env.history.22May2026_01_28_51
+s7(22May2026:01:28:51):  xrun sequence.sv 
+#e8(22May2026:01:29:37): source ./xcelium.d/env.d/env.history.22May2026_01_29_37
+s8(22May2026:01:29:37):  xrun sequence.sv 
+#e9(22May2026:01:29:40): source ./xcelium.d/env.d/env.history.22May2026_01_29_40
+s9(22May2026:01:29:40):  xrun sequence.sv 
+#e10(22May2026:01:31:49): source ./xcelium.d/env.d/env.history.22May2026_01_31_49
+s10(22May2026:01:31:49):  xrun -uvm sequence.sv 

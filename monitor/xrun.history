@@ -1,0 +1,6 @@
+#e1(22May2026:01:38:31): source ./xcelium.d/env.d/env.history.22May2026_01_38_31
+s1(22May2026:01:38:31):  xrun -uvm alu_monitor.sv 
+#e2(22May2026:01:39:24): source ./xcelium.d/env.d/env.history.22May2026_01_39_24
+s2(22May2026:01:39:24):  xrun -uvm alu_monitor.sv 
+#e3(22May2026:01:41:21): source ./xcelium.d/env.d/env.history.22May2026_01_41_21
+s3(22May2026:01:41:21):  xrun -uvm alu_monitor.sv 

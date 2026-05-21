@@ -3,4 +3,4 @@
 // Do not modify this file
 //
 design/rtl.sv
-test/regression/mul_test.sv
+test/regression/and_test.sv
