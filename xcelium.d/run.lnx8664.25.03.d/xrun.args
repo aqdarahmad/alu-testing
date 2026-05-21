@@ -2,5 +2,6 @@
 // File created by:  xrun
 // Do not modify this file
 //
-design/rtl.sv
-test/regression/and_test.sv
+-uvm
+-f
+filelist.f

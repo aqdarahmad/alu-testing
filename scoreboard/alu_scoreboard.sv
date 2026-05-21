@@ -1,7 +1,6 @@
 `include "uvm_macros.svh" 
 import uvm_pkg::*;
- `include "../transaction/transaction.sv"
-`include "../interface/interface.sv"
+
 
 class alu_scoreboard extends uvm_scoreboard;
 

@@ -1,40 +1,44 @@
 xrun(64): 25.03-s006: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	25.03-s006: Started on May 21, 2026 at 01:16:05 EEST
+TOOL:	xrun(64)	25.03-s006: Started on May 22, 2026 at 02:32:45 EEST
 xrun
-	design/rtl.sv
-	test/regression/and_test.sv
-file: design/rtl.sv
-	module worklib.alu:sv
-		errors: 0, warnings: 0
-file: test/regression/and_test.sv
-	module worklib.and_test:sv
-		errors: 0, warnings: 0
-		Caching library 'worklib' ....... Done
-	Elaborating the design hierarchy:
-	Top level design units:
-		and_test
-	Building instance overlay tables: .................... Done
-	Generating native compiled code:
-		worklib.alu:sv <0x0707e53f>
-			streams:   1, words:   656
-		worklib.and_test:sv <0x0b49702f>
-			streams:   2, words:  1656
-	Building instance specific data structures.
-	Loading native compiled code:     .................... Done
-	Design hierarchy summary:
-		                 Instances  Unique
-		Modules:                 2       2
-		Registers:               5       5
-		Vectored wires:          5       -
-		Always blocks:           1       1
-		Initial blocks:          1       1
-		Pseudo assignments:      1       -
-		Simulation timescale:  1ps
-	Writing initial simulation snapshot: worklib.and_test:sv
-Loading snapshot worklib.and_test:sv .................... Done
-xcelium> source /usr/cadence/installs/XCELIUM2503/tools/xcelium/files/xmsimrc
-xcelium> run
-Passed Test
-xmsim: *W,RNQUIE: Simulation is complete.
-xcelium> exit
-TOOL:	xrun(64)	25.03-s006: Exiting on May 21, 2026 at 01:16:05 EEST  (total: 00:00:00)
+	-uvm
+	-f filelist.f
+		interface/interface.sv
+		transaction/alu_transaction.sv
+		driver/alu_driver.sv
+		sequencer/alu_sequencer.sv
+		monitor/alu_monitor.sv
+		agent/alu_agent.sv
+		scoreboard/alu_scoreboard.sv
+		env/alu_env.sv
+		test/alu_test.sv
+		top/top.sv
+file: test/alu_test.sv
+  alu_sequence seq;
+             |
+xmvlog: *E,NOIPRT (test/alu_test.sv,9|13): Unrecognized declaration 'alu_sequence' of unknown type, which could be because of an unsupported keyword, a spelling mistake, non-visible type, or missing instance port list '()' [SystemVerilog].
+  function new(string name, uvm_component parent);
+                                        |
+xmvlog: *E,EXPRPA (test/alu_test.sv,11|40): expecting a right parenthesis (')') [A.2.6(IEEE)].
+  function new(string name, uvm_component parent);
+                                        |
+xmvlog: *E,NOIPRT (test/alu_test.sv,11|40): Unrecognized declaration 'uvm_component' of unknown type, which could be because of an unsupported keyword, a spelling mistake, non-visible type, or missing instance port list '()' [SystemVerilog].
+  function new(string name, uvm_component parent);
+                                        |
+xmvlog: *E,NOTINF (test/alu_test.sv,11|40): Interfaces are not allowed within tasks [SystemVerilog].
+  function new(string name, uvm_component parent);
+                                                |
+xmvlog: *E,EXPSMC (test/alu_test.sv,11|48): expecting a semicolon (';') [12.3.2(IEEE)].
+    super.new(name, parent);
+        |
+xmvlog: *E,EXPRPA (test/alu_test.sv,12|8): expecting a right parenthesis (')') [A.2.6(IEEE)].
+  function void build_phase(uvm_phase phase);
+                                    |
+xmvlog: *E,SVNOTY (test/alu_test.sv,15|36): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+  task run_phase(uvm_phase phase);
+                         |
+xmvlog: *E,SVNOTY (test/alu_test.sv,22|25): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+	Total errors/warnings found outside modules and primitives:
+		errors: 8, warnings: 0
+xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	xrun(64)	25.03-s006: Exiting on May 22, 2026 at 02:32:45 EEST  (total: 00:00:00)

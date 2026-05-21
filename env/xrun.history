@@ -1,0 +1,10 @@
+#e1(22May2026:02:03:15): source ./xcelium.d/env.d/env.history.22May2026_02_03_15
+s1(22May2026:02:03:15):  xrun -uvm env.sv 
+#e2(22May2026:02:03:47): source ./xcelium.d/env.d/env.history.22May2026_02_03_47
+s2(22May2026:02:03:47):  xrun -uvm env.sv 
+#e3(22May2026:02:04:45): source ./xcelium.d/env.d/env.history.22May2026_02_04_45
+s3(22May2026:02:04:45):  xrun -uvm env.sv 
+#e4(22May2026:02:06:02): source ./xcelium.d/env.d/env.history.22May2026_02_06_02
+s4(22May2026:02:06:02):  xrun -uvm env.sv 
+#e5(22May2026:02:07:08): source ./xcelium.d/env.d/env.history.22May2026_02_07_08
+s5(22May2026:02:07:08):  xrun -uvm env.sv 

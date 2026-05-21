@@ -82,3 +82,35 @@ s40(21May2026:01:16:05):  xrun design/rtl.sv test/regression/sub_test.sv
 s41(21May2026:01:16:05):  xrun design/rtl.sv test/regression/mul_test.sv 
 #e42(21May2026:01:16:05): source ./xcelium.d/env.d/env.history.21May2026_01_16_05
 s42(21May2026:01:16:05):  xrun design/rtl.sv test/regression/and_test.sv 
+#e43(22May2026:02:13:03): source ./xcelium.d/env.d/env.history.22May2026_02_13_03
+s43(22May2026:02:13:03):  xrun -uvm -f filelist.f 
+#e44(22May2026:02:13:27): source ./xcelium.d/env.d/env.history.22May2026_02_13_27
+s44(22May2026:02:13:27):  xrun -uvm -f filelist.f 
+#e45(22May2026:02:14:16): source ./xcelium.d/env.d/env.history.22May2026_02_14_16
+s45(22May2026:02:14:16):  xrun -uvm -f filelist.f 
+#e46(22May2026:02:14:30): source ./xcelium.d/env.d/env.history.22May2026_02_14_30
+s46(22May2026:02:14:30):  xrun -uvm -f filelist.f 
+#e47(22May2026:02:15:52): source ./xcelium.d/env.d/env.history.22May2026_02_15_52
+s47(22May2026:02:15:52):  xrun -uvm -f filelist.f 
+#e48(22May2026:02:17:47): source ./xcelium.d/env.d/env.history.22May2026_02_17_47
+s48(22May2026:02:17:47):  xrun -uvm -f filelist.f 
+#e49(22May2026:02:18:42): source ./xcelium.d/env.d/env.history.22May2026_02_18_42
+s49(22May2026:02:18:42):  xrun -uvm -f filelist.f 
+#e50(22May2026:02:19:44): source ./xcelium.d/env.d/env.history.22May2026_02_19_44
+s50(22May2026:02:19:44):  xrun -uvm -f filelist.f 
+#e51(22May2026:02:20:33): source ./xcelium.d/env.d/env.history.22May2026_02_20_33
+s51(22May2026:02:20:33):  xrun -uvm -f filelist.f 
+#e52(22May2026:02:22:43): source ./xcelium.d/env.d/env.history.22May2026_02_22_43
+s52(22May2026:02:22:43):  xrun -uvm -f filelist.f 
+#e53(22May2026:02:24:05): source ./xcelium.d/env.d/env.history.22May2026_02_24_05
+s53(22May2026:02:24:05):  xrun -uvm -f filelist.f 
+#e54(22May2026:02:26:44): source ./xcelium.d/env.d/env.history.22May2026_02_26_44
+s54(22May2026:02:26:44):  xrun -uvm -f filelist.f 
+#e55(22May2026:02:27:31): source ./xcelium.d/env.d/env.history.22May2026_02_27_31
+s55(22May2026:02:27:31):  xrun -uvm -f filelist.f 
+#e56(22May2026:02:30:24): source ./xcelium.d/env.d/env.history.22May2026_02_30_24
+s56(22May2026:02:30:24):  xrun -uvm -f filelist.f 
+#e57(22May2026:02:32:03): source ./xcelium.d/env.d/env.history.22May2026_02_32_03
+s57(22May2026:02:32:03):  xrun -uvm -f filelist.f 
+#e58(22May2026:02:32:45): source ./xcelium.d/env.d/env.history.22May2026_02_32_45
+s58(22May2026:02:32:45):  xrun -uvm -f filelist.f 

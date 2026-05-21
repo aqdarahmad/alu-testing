@@ -1,10 +1,7 @@
 `include "uvm_macros.svh"
 import uvm_pkg::*;
 
-`include "../transaction/transaction.sv"
-`include "../interface/interface.sv"
-`include "../driver/driver.sv"
-`include "../monitor/alu_monitor.sv"
+
 class alu_agent extends uvm_agent;
 
   `uvm_component_utils(alu_agent)
