@@ -2,5 +2,14 @@
 // File created by:  xrun
 // Do not modify this file
 //
-/home/Trainee23/alu/design/rtl.sv
-/home/Trainee23/alu/test/regression/and_test.sv
+/home/Trainee23/alu/interface/interface.sv
+/home/Trainee23/alu/transaction/alu_transaction.sv
+/home/Trainee23/alu/sequence/alu_sequence.sv
+/home/Trainee23/alu/driver/alu_driver.sv
+/home/Trainee23/alu/sequencer/alu_sequencer.sv
+/home/Trainee23/alu/monitor/alu_monitor.sv
+/home/Trainee23/alu/agent/alu_agent.sv
+/home/Trainee23/alu/scoreboard/alu_scoreboard.sv
+/home/Trainee23/alu/env/alu_env.sv
+/home/Trainee23/alu/test/alu_test.sv
+/home/Trainee23/alu/top/top.sv

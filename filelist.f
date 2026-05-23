@@ -7,6 +7,7 @@ interface/interface.sv
 # Transaction (base class)
 # =====================
 transaction/alu_transaction.sv
+sequence/alu_sequence.sv
 
 # =====================
 # UVM Components

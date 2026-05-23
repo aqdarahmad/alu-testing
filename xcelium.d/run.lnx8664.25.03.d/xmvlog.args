@@ -10,6 +10,7 @@
 UVM_PLI
 interface/interface.sv
 transaction/alu_transaction.sv
+sequence/alu_sequence.sv
 driver/alu_driver.sv
 sequencer/alu_sequencer.sv
 monitor/alu_monitor.sv
